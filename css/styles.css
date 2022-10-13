@@ -68,12 +68,13 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: rgba(47, 48, 58, 0.4);
 
-    background: var(--main-color);
+    background-image: url(".././images/background.png");
 }
 
 .Logo{
-    color: var(--blue-color); 
+    color: var(--blue-color);
     font-family: Raleway; 
     font-style: normal; 
     font-weight: 700; 
@@ -127,7 +128,7 @@ body{
     border-radius: 4px;
  }
 
- .container {
+.container {
     width: 1200px;
     margin: 0 auto;
 
@@ -188,11 +189,10 @@ body{
 #text {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-bottom: 10px;
     margin-top: 95px;
     display: flex;
-   
+    align-content: space-between;
 }
 
 #title-text .title-text:hover{
@@ -254,6 +254,7 @@ p {
     font-size: 14px;
     line-height: 24px;
     padding-right: 30px;
+    width: 270px;
 }
 
 h1 {
@@ -379,15 +380,21 @@ h4 {
 .container_footer {
     height: 252px;
     width: 100%;
-    padding-left: 120px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    list-style: none;
     margin-top: 151px;
+    padding-left: 215px;
+    align-content: space-between;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    
         
     background: var(--main-color);
 }
 
+.information{
+    display: flex;
+    display: inline;
+ }
 .other {
     font-family: 'Roboto';
     font-style: normal;
