@@ -432,4 +432,11 @@ h4 {
 
 .h3-box {
     color: var(--white-color);
+    letter-spacing: 0.03em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
 }
