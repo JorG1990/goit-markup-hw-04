@@ -212,19 +212,6 @@ body{
 	color: var(--green-color);
 }
 
-
-.button1 {
-    height: 38px;
-    width: 73px;
-    left: 495px;
-    top: 186px;
-    border-radius: 4px;
-    cursor: pointer;
-
-    background: var(--blue-color);
-    color: var(--white-color);
- }
-
 .button {
     height: 38px;
     width: 128px;
@@ -235,6 +222,13 @@ body{
 
     background: #F5F4FA;
     color: var(--black-color);
+ }
+
+ .button:hover{
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
  }
 
 .study {
