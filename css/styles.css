@@ -40,18 +40,19 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: row;
-}
+   }
 
 .header_navigation .item{
     display: flex;
     flex-direction: row;
+    text-decoration: none;
 }
 
 .header_navigation .link:hover{
 	text-decoration: underline;
 }
 
-.header_navigation {
+.header_navigation .title-text1:hover{
 	text-decoration: underline;
 }
 
