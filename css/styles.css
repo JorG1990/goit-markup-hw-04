@@ -65,6 +65,10 @@ body{
 
 }
 
+.email {
+    margin-right: 10px;
+}
+
 #bg {
     display: flex;
     height: 600px;
@@ -87,6 +91,7 @@ body{
     margin-right: 93px;
     margin-bottom: 25px;
     margin-top: 24px;
+    text-decoration: none;
 }
 
 .link{
@@ -204,6 +209,17 @@ body{
 }
 
 .redes:hover, .redes:focus{
+    background-color: var(--blue-color);
+    fill: var(--white-color);
+}
+
+.redes-footer {
+    fill: var(--white-color);
+    background-color:rgba(255, 255, 255, 0.1);;
+    border-radius: 50%;
+}
+
+.redes-footer:hover, .redes-footer:focus {
     background-color: var(--blue-color);
     fill: var(--white-color);
 }
@@ -425,8 +441,32 @@ h4 {
     flex-wrap: wrap; 
     max-width: 1200px;
     justify-content: space-between;
+    background: var(--white-color);
 }
 
+.svgs {
+    fill: var(--gray-color);
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    border: var(--gray-color);
+    border-radius: 4px;
+    width: 170px;
+    height: 81px;
+    box-sizing: border-box;
+    border: 1px solid var(--gray-color);
+}
+
+.svgs:hover, .svgs:focus {
+    fill: var(--blue-color);
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    border: var(--blue-color);
+    border-radius: 4px;
+    width: 170px;
+    height: 81px;
+    box-sizing: border-box;
+    border: 1px solid var(--blue-color);
+}
 .customers > .svgs:not(:last-child) {
     margin-right: 30px;
 }
@@ -490,4 +530,5 @@ footer {
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
