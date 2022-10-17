@@ -51,8 +51,13 @@ body{
 	text-decoration: underline;
 }
 
-.header_navigation .title-text1:hover{
+.header_navigation {
 	text-decoration: underline;
+}
+
+.header_contact:hover * {
+    fill: var(--blue-color);
+    color: var(--blue-color);
 }
 
 .header_contact{
@@ -190,6 +195,17 @@ body{
     padding: 30px;
 	text-align: center;
     flex-wrap: wrap; 
+}
+
+.redes {
+    fill: var(--gray-color);
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.redes:hover, .redes:focus{
+    background-color: var(--blue-color);
+    fill: var(--white-color);
 }
 
 .container-img1{
