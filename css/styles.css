@@ -164,7 +164,15 @@ body{
     margin: 0 auto;
 }
 
-.equipment > .card:not(:last-child) {
+.card:nth-child(1){
+    margin-right: 30px;
+}
+
+.card:nth-child(2){
+    margin-right: 30px;
+}
+
+.card:nth-child(3){
     margin-right: 30px;
 }
 
@@ -172,7 +180,6 @@ body{
     display: inline-block;
     width: 270px;
     height: 428px;
-    margin-right: 15px;
     justify-content: center;
     overflow: hidden;
 	background:#FFFFFF;
