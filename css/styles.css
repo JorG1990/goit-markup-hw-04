@@ -273,25 +273,6 @@ body{
     display: flex;
 }
 
-#text {
-    width: 1200px;
-    justify-content: center;
-    margin-bottom: 10px;
-    margin-top: 95px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-}
-
-#text > .text:not(:last-child) {
-    margin-right: 30px;
-}
-
-#title-text .title-text:hover{
-    text-decoration: underline;
-}
-
-
 .title-text1{
     color:  var(--gray-color);
 }
@@ -423,6 +404,9 @@ h4 {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.text {
+  margin-top: 82px;
+}
 .title-text{
     color: rgba(255, 255, 255, 0.6);
     font-family: 'Roboto';
