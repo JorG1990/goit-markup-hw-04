@@ -17,12 +17,20 @@
 }
 
 body{
-    font-family: "roboto", sans-serif; 
+    font-family: "roboto", sans-serif;
     font-size: 14px;
     font-style: normal;
     background-color:var(--white-color);
     color: var(--black-color);
-    
+
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .header{
@@ -50,15 +58,21 @@ body{
 
 .header_navigation .link:hover{
 	text-decoration: underline;
+    border-bottom: var(--blue-color);
+    border-bottom: 4px;
 }
 
 .header_navigation .title-text1:hover{
 	text-decoration: underline;
+    border-bottom: var(--blue-color);
+    border-bottom: 4px;
 }
 
 .header_contact:hover * {
     fill: var(--blue-color);
     color: var(--blue-color);
+    border-bottom: var(--blue-color);
+    border-bottom: 4px;
 }
 
 .header_contact{
@@ -85,9 +99,9 @@ body{
 
 .Logo{
     color: var(--blue-color);
-    font-family: Raleway; 
-    font-style: normal; 
-    font-weight: 700; 
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
     margin-right: 93px;
     margin-bottom: 25px;
@@ -104,17 +118,21 @@ body{
 
 .link:hover *{
 	color: var(--blue-color);
+    border-bottom: var(--blue-color);
+    border-bottom: 4px;
 }
 
 .link:active *{
 	color: var(--green-color);
+    border-bottom: var(--blue-color);
+    border-bottom: 4px;
 }
 
 .item {
     display: inline-block;
    padding-top: 32px;
    padding-left: 23px;
-    
+
 }
 
 .button2 {
@@ -132,19 +150,11 @@ body{
     padding-bottom: 10px;
     margin-top: 30px;
     cursor: pointer;
-    
+
     background: var(--blue-color);
     color: var(--white-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
- }
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    display: flex;
 }
 
 .container-img{
@@ -200,7 +210,7 @@ body{
 .card .contents-card{
     padding: 30px;
 	text-align: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .redes {
@@ -228,7 +238,7 @@ body{
 .container-img1{
     width: 270px;
     height: 260px;
- 
+
 }
 
 .portfolio{
@@ -238,8 +248,8 @@ body{
 
 .seccion{
     margin:0 auto;
-    display: flex; 
-    flex-wrap: wrap; 
+    display: flex;
+    flex-wrap: wrap;
     max-width: 1200px;
     justify-content: space-between;
 }
@@ -252,14 +262,13 @@ body{
     display: flex;
     margin-top: 106px;
     margin-bottom: 50px;
-
 }
 
 #container{
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    justify-content: center;
+    justify-content:space-between;
     flex-wrap: wrap;
     display: flex;
 }
@@ -439,7 +448,7 @@ h4 {
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     max-width: 1200px;
     justify-content: space-between;
     background: var(--white-color);
@@ -480,7 +489,7 @@ footer {
     flex-wrap: wrap;
     background: var(--main-color);
 }
-    
+
 .container_footer {
     width: 1200px;
     display: flex;
