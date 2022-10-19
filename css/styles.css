@@ -30,7 +30,6 @@ body{
   margin: 0 auto;
   justify-content: space-between;
   flex-wrap: wrap;
-  display: flex;
 }
 
 .header{
@@ -377,7 +376,7 @@ h4 {
 .card-2{
     display: inline-block;
     width: 370px;
-    height: 404px;
+    height: 420px;
     margin-bottom: 30px;
     overflow: hidden;
 	background:#FFFFFF;
@@ -525,4 +524,12 @@ footer {
     line-height: 16px;
     text-transform: uppercase;
     margin-bottom: 20px;
+}
+
+.contents {
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
 }
