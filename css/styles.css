@@ -127,6 +127,18 @@ body{
     border-bottom: 4px;
 }
 
+.header_item:hover *{
+  color: var(--blue-color);
+  border-bottom: var(--blue-color);
+  border-bottom: 4px;
+}
+
+.header_item:active *{
+  color: var(--blue-color);
+    border-bottom: var(--blue-color);
+    border-bottom: 4px;
+}
+
 .item {
     display: inline-block;
    padding-top: 32px;
